@@ -1,0 +1,45 @@
+GET http://localhost:3000/followers
+
+
+
+###
+
+
+
+GET http://localhost:3000/followers/673226aadf32f3086ed6462b
+
+
+
+###
+
+
+
+POST http://localhost:3000/followers
+Content-Type: application/json
+
+{
+    "name" : "Jojo",
+    "following": "ITeaser"
+}
+
+ 
+
+###
+
+
+
+DELETE http://localhost:3000/followers/6731e72732a0e70c4d0e593f
+
+
+
+###
+
+
+
+PATCH http://localhost:3000/followers/67322bcdca95175fade48443
+Content-Type: application/json
+
+{
+    "name" : "Jojo",
+    "following": "ITeaserBonus"
+}
